@@ -7,12 +7,14 @@ import BoardReadPage from "./pages/boards/BoardReadPage";
 
 function App () {
   return (
-    <Routes>
-      <Route component={BoardListPage} path="/" exact />
-      <Route component={BoardRegisterPage} path="/create" />
-      <Route component={BoardModifyPage} path="/edit/:boardNo" />
-      <Route component={BoardReadPage} path="/read/:boardNo" />
-    </Routes>
+      <>
+          <Routes>
+              <Route element={<BoardListPage/>} path="/" exact></Route>
+              <Route element={<BoardRegisterPage/>} path="/create"></Route>
+              <Route element={<BoardModifyPage/>} path="/edit/:boardNo"></Route>
+              <Route element={<BoardReadPage/>} path="/read/:boardNo"></Route>
+          </Routes>
+      </>
   );
 }
 

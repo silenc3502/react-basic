@@ -16,7 +16,7 @@ function BoardModifyForm({ board, isLoading, onModify }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    onModify(board.boardNo, title, content);
+    onModify(board.boardNo, title, content, board.writer, board.regDate);
   };
 
   useEffect(() => {

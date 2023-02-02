@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import BoardRead from "../../components/boards/BoardRead";
 import * as client from "../../api/board";
 
 const BoardReadPage = ({ match, history }) => {
-  const { boardNo } = match.params;
+  const { boardNo } = useParams();
 
   const [board, setBoard] = useState(null);
   const [isLoading, setLoading] = useState(false);
