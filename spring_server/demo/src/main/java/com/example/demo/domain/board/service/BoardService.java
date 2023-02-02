@@ -1,7 +1,7 @@
 package com.example.demo.domain.board.service;
 
 import com.example.demo.domain.board.entity.Board;
-import com.example.demo.domain.board.request.BoardRequest;
+import com.example.demo.domain.board.controller.request.BoardRequest;
 
 import java.util.List;
 

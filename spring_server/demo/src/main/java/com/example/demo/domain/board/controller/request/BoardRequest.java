@@ -1,10 +1,10 @@
-package com.example.demo.domain.board.request;
+package com.example.demo.domain.board.controller.request;
 
 import lombok.Getter;
 
 @Getter
 public class BoardRequest {
     private String title;
-    private String content;
     private String writer;
+    private String content;
 }

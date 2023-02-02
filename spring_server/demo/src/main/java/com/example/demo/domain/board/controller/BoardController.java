@@ -1,7 +1,7 @@
 package com.example.demo.domain.board.controller;
 
 import com.example.demo.domain.board.entity.Board;
-import com.example.demo.domain.board.request.BoardRequest;
+import com.example.demo.domain.board.controller.request.BoardRequest;
 import com.example.demo.domain.board.service.BoardService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

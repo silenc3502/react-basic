@@ -2,7 +2,7 @@ package com.example.demo.domain.board.service;
 
 import com.example.demo.domain.board.entity.Board;
 import com.example.demo.domain.board.repository.BoardRepository;
-import com.example.demo.domain.board.request.BoardRequest;
+import com.example.demo.domain.board.controller.request.BoardRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
